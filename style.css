@@ -1,0 +1,6 @@
+#firstDiv {
+    background-image: url(pexels-rdne-stock-project-7821685.jpg);
+    background-size: cover;
+    height: 85vh;
+    filter: brightness(.5);
+}
