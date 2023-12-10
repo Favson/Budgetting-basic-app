@@ -3,53 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Budgetting Assignment</title>
+    <title>Budgetting Cacl</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
-<body>
-    <div class="text-center text-danger my-2" style="text-decoration: brown underline;">
-        <h1>Budgetting Calculator</h1>
-    </div>
-    <div class="container shadow-sm">
-        <div class="row" style="gap: 70px;">
-            <div class="col-lg-5 col-sm-12 rounded-4" id="firstDiv">
-                
+<body class="body">
+    <img src="png-transparent-budget-logo-capital-budgeting-computer-icons-plan-finance-solar-cell-miscellaneous-text-service.png" alt="" width="10%" style="padding:30px;">
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-lg-6 col-md-6">
+                <h1 class="introvert fw-5">Welcome to Favson Global, a world where we make your budgets more easier to create and to start with.
+                </h1>
             </div>
-            <div class="col-lg-5 col-12">
-                <div class="row">
-                    <div class="alert alert-danger p-2 text-center" style="display: none;" id="err">The Spaces below cannot be empty, kindly fill in values</div>
-                    <div class="col-lg-5 col-12">
-                        <input type="text" class="form-control form-control-sm my-3" placeholder="Enter your Full name" required id="fullName" autofocus>
-                        <input type="text" class="form-control form-control-sm my-3" placeholder="Product 1" required id="product1">
-                        <input type="text" class="form-control form-control-sm my-3" placeholder="Product 2" required id="product2">
-                        <input type="text" class="form-control form-control-sm my-3" placeholder="Product 3" required id="product3">
-                        <input type="text" class="form-control form-control-sm my-3" placeholder="Product 4" required id="product4">
-                    </div>
-                    <div class="col-lg-5">
-                        <input type="number" class="form-control form-control-sm my-3" placeholder="Enter Phone Number" required id="phoneNumber">
-                        <input type="number" class="form-control form-control-sm my-3" placeholder="Product Price" required id="productPrice1">
-                        <input type="number" class="form-control form-control-sm my-3" placeholder="Product Price" required id="productPrice2">
-                        <input type="number" class="form-control form-control-sm my-3" placeholder="Product Price" required id="productPrice3">
-                        <input type="number" class="form-control form-control-sm my-3" placeholder="Product Price" required id="productPrice4">
-                    </div>
-                    <input type="text" placeholder="Input Amount to be Spent" id="amount" style="margin-bottom: 10px; width:50%; margin-left:100px;">
-                    <button class="btn btn-danger w-100" onclick="calc()">Calculate Grade</button>
-                    <div id="showdiv">
-                        <p class="showDiv" id="intro"></p>
-                        <p class="showDiv" id="intro1"></p>
-                        <p class="showDiv" id="intro2"></p>
-                        <p class="showDiv" id="intro3"></p>
-                        <p class="showDiv" id="intro4"></p>
-                        <p class="showDiv" id="note"></p>
-                        <p class="showDiv" id="result"></p>
-                    </div>
-                    <button class="btn btn-danger w-100" style="display: none;" id="procced" onclick="preceed()">Proceed</button>
-                </div>
+            <div class="col-sm-12 col-lg-6 col-md-6" style="padding-bottom: 20px;">
+                <img src="group meeting.png" alt="" width="100%">
             </div>
-
+            <p class="budget">As we all know budgeting is a crucial skill that empowers individuals to take control of their financial destinies. It's not about restricting yourself; instead, it's a strategic plan that helps you allocate your resources wisely, prioritize your financial goals, and build a secure future.</p>
+            <p>Would you like to start now? Click the button below and secure your future.</p>
+            <button class="btn btn-success" onclick="start()" style="width: 25%; margin:0% auto;"><a href="indent.html" style="text-decoration: none;font-weight:800; color:white; font-size:20px">Start</a></button>
         </div>
+
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -4,3 +4,18 @@
     height: 85vh;
     filter: brightness(.5);
 }
+.body{
+    background-color: #fff9f2;
+    padding-bottom: 100px;
+}
+
+.introvert{
+    width: 100%;
+    line-height: 3rem;
+    color: #6d1830;
+    font-weight: 600;
+}
+.budget{
+    width: 50%;
+    text-align: center;
+}
